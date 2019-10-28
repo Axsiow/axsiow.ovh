@@ -19,17 +19,18 @@
 	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 	<link href="css/addons/flag.min.css" rel="stylesheet">
 	<link href="css/resume.min.css" rel="stylesheet">
+	<link href="css/langue.css" rel="stylesheet">
 
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
 </head>
 
 <body id="page-top">
-	<script src="js/langue.js"> </script>
+	<!-- <script src="js/langue.js"> </script>
 	<script src="js/darkmode.js"></script>
 	<script>
   		new Darkmode().showWidget();
-	</script>
+	</script> -->
 
 
 	<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
@@ -42,9 +43,6 @@
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-
-		<button id="en" class="translate">English</button>
-        <button id="fr" class="translate">French</button>
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav">
@@ -71,6 +69,11 @@
 				</li>
 			</ul>
 		</div>
+		<div class="langButton">
+			<button id="en" class="translate brk-btn english">English</button>
+			<button id="fr" class="translate brk-btn french">French</button>
+			<!-- <button id="en" class="brk-btn translate" onclick="changLang()">English</button> -->
+		</div>	
 	</nav>
 
 	<div class="container-fluid p-0">
@@ -105,7 +108,7 @@
 
 		<section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
 			<div class="w-100">
-				<h2 class="mb-5 lang" key="experience">Expérience</h2>
+				<h2 class="mb-5 lang" key="experience">Expériences</h2>
 
 				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 					<div class="resume-content">
