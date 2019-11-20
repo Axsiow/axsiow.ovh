@@ -41,6 +41,7 @@ var arrLang = {
 
 		// Certifications
 		"cert01": "October 2019",
+		"cert02": "November 2019",
 
 		// Skills
 		"ski01": "Programming languages",
@@ -99,6 +100,7 @@ var arrLang = {
 
 		// Certifications
 		"cert01": "Octobre 2019",
+		"cert02": "Novembre 2019",
 
 		// Skills
 		"ski01": "Langages de programmations",
