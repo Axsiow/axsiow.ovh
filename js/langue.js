@@ -33,6 +33,9 @@ var arrLang = {
 		"exp42": "Graphic designer in the Coquand Imprimeur company ",
 		"exp43": "May - June 2016",
 
+		"exp52": "Network Monitoring tool development. Need to improve monitoring solution by evaluation open source tool (Zabbix) collect the needs and develop new web interface",
+		"exp53": "February - July 2020",
+
 		// Education
 		"edu01": "Bachelor in computing science",
 		"edu02": "DevOps",
@@ -91,6 +94,9 @@ var arrLang = {
 		"exp41": "Graphiste",
 		"exp42": "Graphiste dans l'entreprise Coquand Imprimeur",
 		"exp43": "Mai -  Juin 2016",
+
+		"exp52": "Développement d'outils de surveillance de réseau. Besoin d'améliorer la solution de surveillance par un outil open source d'évaluation (Zabbix) recueillir les besoins et développer une nouvelle interface web",
+		"exp53": "Février - Juillet 2020",
 
 		// Education
 		"edu01": "Bachelor en informatique",
