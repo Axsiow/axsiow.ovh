@@ -2825,8 +2825,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background: rgb(99,34,160);
-			background: linear-gradient(59deg, rgba(99,34,160,1) 0%, rgba(104,59,120,1) 100%); 
+			background: rgb(80,83,147);
+			background: linear-gradient(11deg, rgba(80,83,147,1) 0%, rgba(104,59,120,1) 100%); 
 			color: #c8ece9;
 		}
 
