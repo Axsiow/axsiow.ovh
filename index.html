@@ -1,316 +1,404 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Axsiow - Enzo Fogliano</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link type="favicon" rel="icon" href="images/logoSimplePurple.png" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="landing is-preload">
+<!DOCTYPE html>
+<html lang="fr">
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+<head>
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html">Enzo Fogliano</a></h1>
-						<nav id="nav">
-							<ul>
-								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
-									<div id="menu">
-										<ul>
-											<li><a href="#page-wrapper">À Propos</a></li>
-											<li><a href="#one">Parcours</a></li>
-											<li><a href="#two">Expériences</a></li>
-											<li><a href="#three">Travaux</a></li>
-											<li><a href="#four">Compétences</a></li>
-											<li><a href="#five">Certifications</a></li>
-											<li><a href="#six">Centres d'intéret</a></li>
-											<li><a href="#footer">Contacts</a></li>
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</nav>
-					</header>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<h2>Enzo Fogliano</h2>
-							<p>Etudiant en 3eme année d'ingénierie informatique.<br/>
-									Alternant en Network Administration chez STMicroelectronics France.<br/>
-									Passionné par la science et les nouvelles technologies.
-							</p>
-						</div>
-						<a href="#one" class="more scrolly">Descendre</a>
-					</section>
+	<title>Axsiow - Enzo Fogliano</title>
+	<link type="favicon" rel="icon" href="img/logoSimplePurple.png">
 
-				<!-- One -->
-				<section id="one" class="wrapper style3 special">
-					<div class="inner">
-						<header class="major">
-							<h2 class="nh2">Parcours</h2>
-						</header>
-						<ul class="features">
-							<li class="icon solid fa-terminal">
-								<h3>EPSI Grenoble</h3>
-								<h4>2018 - 2021</h4>
-								<p>Concepteur intégrateur SYSOPS/Administrateur Système Réseaux et Bases de Données</p>
-							</li>
-							<li class="icon solid fa-laptop">
-								<h3>Lycée André Argouges</h3>
-								<h4>2015 - 2018</h4>
-								<p>Baccalauréat Professionnel RPIP (Réalisation de produits imprimés et plurimédias)</p>
-							</li>
-						</ul>
-						<ul class="icons major">
-							<li><span class="icon major style1"><span class="fas fa-terminal"></span></span></li>
-							<li><span class="icon major style2"><span class="fas fa-laptop-code"></span></span></li>
-						</ul>
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+	<link href="css/addons/flag.min.css" rel="stylesheet">
+	<link href="css/resume.min.css" rel="stylesheet">
+	<link href="css/langue.css" rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+</head>
+
+<body id="page-top">
+	<!-- <script src="js/langue.js"> </script>
+	<script src="js/darkmode.js"></script>
+	<script>
+  		new Darkmode().showWidget();
+	</script> -->
+
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+		<a class="navbar-brand js-scroll-trigger" href="#page-top">
+			<span class="d-block d-lg-none">Enzo Fogliano</span>
+			<span class="d-none d-lg-block">
+				<img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+			</span>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link js-scroll-trigger lang" href="#about" key="about">À Propos</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link js-scroll-trigger lang" href="#experience" key="experience">Expériences</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link js-scroll-trigger lang" href="#education" key="education">Parcours</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link js-scroll-trigger lang" href="#certifications" key="certifications">Certifications</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link js-scroll-trigger lang" href="#skills" key="skills">Compétences</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link js-scroll-trigger lang" href="#interests" key="interests">Centres d'intrérêt</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link js-scroll-trigger lang" href="#awards" key="works">Travaux</a>
+				</li>
+			</ul>
+		</div>
+		<div class="langButton">
+			<button id="en" class="translate brk-btn english">English</button>
+			<button id="fr" class="translate brk-btn french">French</button>
+			<!-- <button id="en" class="brk-btn translate" onclick="changLang()">English</button> -->
+		</div>	
+	</nav>
+
+	<div class="container-fluid p-0">
+
+		<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+			<div class="w-100">
+				<h1 class="mb-0">Enzo
+					<span class="text-primary">Fogliano</span>
+				</h1>
+				<div class="subheading mb-5">🗻 Grenoble, France · (+33) 637148692 ·
+					<a href="mailto:name@email.com">contact@axsiow.ovh</a>
+				</div>
+				<p class="lead mb-5 lang" key="desc">Passionné par la science, et les nouvelles technologies ! Passé par un Baccalauréat Design Graphique / Imprimerie. Je suis actuellement étudiant en école d'ingénierie informatique à l'EPSI Grenoble. </p>
+				<div class="social-icons">
+					<a href="https://www.linkedin.com/in/enzofogliano/" target="_blank">
+						<i class="fab fa-linkedin-in"></i>
+					</a>
+					<a href="https://github.com/Axsiow/" target="_blank">
+						<i class="fab fa-github"></i>
+					</a>
+					<a href="https://twitter.com/Astro_Axsiow" target="_blank">
+						<i class="fab fa-twitter"></i>
+					</a>
+					<a href="https://www.facebook.com/EnzoFogliano" target="_blank">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<hr class="m-0">
+
+		<section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+			<div class="w-100">
+				<h2 class="mb-5 lang" key="experience">Expériences</h2>
+
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+					<div class="resume-content">
+						<h3 class="mb-0 lang" key="exp11">Ingénierie Réseau</h3>
+						<div class="subheading mb-3">ST Microelectronics</div>
+						<p class="lang" key="exp52">Développement d'outils de surveillance de réseau<br>Besoin d'améliorer la solution de surveillance par un outil open source d'évaluation (<a href="https://zabbix.com" target="_blank">Zabbix</a>) recueillir les besoins et développer une nouvelle interface web</p>
 					</div>
-				</section>
-
-				<!-- Two -->
-					<section id="two" class="wrapper alt style2">
-						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2 id="xp-tittle">Ingénierie Réseau</h2>
-								<h3>STMicroelectronics (Octobre 2020 - Aujourd'hui)</h3>
-								<p>Alternance chez ST Microelectronics sur le site de Crolles en ingénierie réseau.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2 id="xp-tittle">Ingénierie Réseau</h2>
-								<h3>STMicroelectronics (Février / Juillet 2020)</h3>
-								<p>Développement d'outils de surveillance de réseau. Besoin d'améliorer la solution de surveillance par un outil open source d'évaluation (Zabbix) recueillir les besoins et développer une nouvelle interface web</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2 id="xp-tittle">Web Développeur et Designer</h2>
-								<h3>Auphys Technologie (Juillet - Août 2019)</h3>
-								<p>Stage de 8 semaines en tant que Web Développeur et Designer, avec notament la création de Auphys Works.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2 id="xp-tittle">Ingénierie Réseau</h2>
-								<h3>Leonix Telecom (Mai - Juin 2019</h3>
-								<p>Stage de 6 semaines dans le pôle ingénierie en collaboration avec les équipes réseaux de l'opérateur Leonix Telecom.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic06.jpg" alt="" /></div><div class="content">
-								<h2 id="xp-tittle">Traducteur Anglais > Français</h2>
-								<h3>Twitter France</h3>
-								<p>Traducteur de l'anglais vers le français sur la plateforme de traduction de Twitter.</p>
-							</div>
-						</section>
-					</section>
-
-				<!-- Three -->
-					<section id="three" class="wrapper style3 special">
-						<div class="inner">
-							<header class="major">
-								<h2 class="nh2">Travaux</h2>
-								<p>Liste de mes réalisations.</p>
-							</header>
-							<ul class="features">
-								<li class="icon fa-paper-plane">
-									<h3>TEMA Don du sang</h3>
-									<p>Réalisation de <a href="https://tema.axsiow.ovh" target="_blank">TEMA</a> qui est une plateforme ayant pour but d'informer sur le don de sang en France.</p>
-								</li>
-								<li class="icon solid fa-laptop">
-									<h3>Auphys Works</h3>
-									<p>Réalisation de <a href="https://auphys.axsiow.ovh" target="_blank">Auphys Works</a> qui est un site vitrine pour le projet de coworking de la société <a href="https://auphys.com" target="_blank">Auphys Technologie</a>. <br />
-									Créer en collaboration avec <a href="https://theomigeat.com">Théo MIGEAT</a></p>
-								</li>
-								<li class="icon solid fa-code">
-									<h3>BDE EPSI Grenoble</h3>
-									<p>Réalisation du site <a href="https://bde.axsiow.ovh" target="_blank">BDE EPSI Grenoble</a> en collaboration avec Simon B, Paco H, Jonas B, et Charles P.</p>
-								</li>
-								<li class="icon solid fa-headphones-alt">
-									<h3>Les Pingouins</h3>
-									<p><a href="https://axsiow.itch.io/les-pingouins" target="_blank">Les Pingouins</a> est un jeu réalisé en C# pour la participation à la Scientific Game Jam 2020 organisé par La Casemate, le CNRS, le CEA et la Communaute Université Grenoble Alpes. <br /> 
-										Le jeu a remporté le Pixel de l'univers Sonore pour le meilleur sound design et le Pixel du Graphisme pour le jeu ayant les meilleurs graphisme lors de cette edition.</p>
-								</li>
-								<li class="icon fa-heart">
-									<h3>Safe Or Well</h3>
-									<p><a href="https://mrgove10.itch.io/safe-or-well" target="_blank">Safe Or Well</a> est un jeu réalisé en C# pour la participation à la Scientific Game Jam 2019 organisé par La Casemate, le CNRS, le CEA et la Communaute Université Grenoble Alpes.</p>
-								</li>
-								<li class="icon fa-flag">
-									<h3>Apocalypse Not Now</h3>
-									<p><a href="https://manfredhq.itch.io/apocalypsenotnow" target="_blank">Apocalypse Not Now</a> est un jeu réalisé en C# lors de la Global Game Jam 2020</p>
-								</li>
-								<li class="icon fa-flag">
-									<h3>Battle dev</h3>
-									<p>Participation à la BattleDev 2018, en C# organisé par le Blog du Modérateur</p>
-								</li>
-								<li class="icon fa-flag">
-									<h3>Coding Battle</h3>
-									<p>Participation à la Coding Battle 2018, en C# organisé par le Shaker</p>
-								</li>
-							</ul>
-						</div>
-					</section>
-
-				<!-- Four -->
-				<section id="four" class="wrapper style1 special">
-					<div class="inner">
-						<header class="major">
-							<h2 class="nh2">Compétences</h2>
-						</header>
-						<h3>Langages de programmations</h3>
-						<ul class="iconsCompetences">
-								<i class="devicon-html5-plain"></i>
-								<i class="devicon-css3-plain"></i>
-								<i class="devicon-javascript-plain"></i>
-								<i class="devicon-typescript-plain"></i>
-								<i class="devicon-angularjs-plain"></i>
-								<i class="devicon-jquery-plain"></i>
-								<i class="devicon-nodejs-plain"></i>
-								<i class="devicon-ionic-original"></i>
-								<i class="devicon-php-plain"></i>
-								<i class="devicon-mysql-plain-wordmark"></i>
-								<i class="devicon-c-plain"></i>
-								<i class="devicon-cplusplus-plain"></i>
-								<i class="devicon-csharp-plain"></i>
-						</ul>
-						<h3>Systèmes d'exploitation</h3>
-						<ul class="iconsCompetences">
-							<i class="devicon-linux-plain"></i>
-							<i class="devicon-ubuntu-plain"></i>
-							<i class="devicon-redhat-plain"></i>
-							<i class="devicon-debian-plain"></i>
-							<i class="devicon-windows8-original"></i>
-						</ul>
-						<h3>Environnement de développement</h3>
-						<ul class="iconsCompetences">
-							<i class="devicon-visualstudio-plain"></i>
-							<i class="devicon-phpstorm-plain"></i>
-							<i class="devicon-webstorm-plain"></i>
-							<i class="devicon-atom-original"></i>
-						</ul>
-						<h3>Outils</h3>
-						<ul class="iconsCompetences">
-							<i class="devicon-oracle-original"></i>
-							<i class="devicon-npm-original-wordmark"></i>
-							<i class="devicon-ssh-plain-wordmark"></i>
-							<i class="devicon-git-plain"></i>
-							<i class="devicon-github-plain"></i>
-							<i class="devicon-docker-plain"></i>
-							<i class="devicon-apache-plain"></i>
-							<i class="devicon-amazonwebservices-plain-wordmark"></i>
-							<i class="devicon-trello-plain"></i>
-							<i class="devicon-firefox-plain"></i>
-						</ul>
-						<h3>Graphisme</h3>
-						<ul class="iconsCompetences">
-							<i class="devicon-bootstrap-plain"></i>
-							<i class="fab fa-adobe"></i>
-							<i class="devicon-photoshop-line"></i>
-							<i class="devicon-illustrator-line"></i>
-							<i class="devicon-indesign-line"></i>
-						</ul>
+					<div class="resume-date text-md-right">
+						<span class="text-primary lang" key="exp53">Février - Juillet 2020</span>
 					</div>
-				</section>
-
-				<!-- Five -->
-				<section id="five" class="wrapper style3 special">
-					<div class="inner">
-						<header class="major">
-							<h2 class="nh2">Certifications</h2>
-						</header>
-						<ul class="features">
-							<li class="devicon-html5-plain">
-								<h3>HTML Fundamentals</h3>
-								<h4>Octobre 2019</h4>
-								<a href="images/certHTML.pdf" target="_blank">Sololearn</a>
-							</li>
-							<li class="devicon-css3-plain">
-								<h3>CSS Fundamentals</h3>
-								<h4>Octobre 2019</h4>
-								<a href="images/certCSS.pdf" target="_blank">Sololearn</a>
-							</li>
-							<li class="devicon-javascript-plain">
-								<h3>JavaScript Fundamentals</h3>
-								<h4>Octobre 2019</h4>
-								<a href="images/certJS.pdf" target="_blank">Sololearn</a>
-							</li>
-							<li class="devicon-jquery-plain">
-								<h3>JQuery Fundamentals</h3>
-								<h4>Novembre 2019</h4>
-								<a href="images/certJQuery.pdf" target="_blank">Sololearn</a>
-							</li>
-						</ul>
+				</div>
+				
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+					<div class="resume-content">
+						<h3 class="mb-0 lang" key="exp01">Web Développeur et Designer</h3>
+						<div class="subheading mb-3">Auphys Technologie</div>
+						<p class="lang" key="exp02">Stage de 8 semaines en tant que Web Développeur et Designer, avec notament la création de <a href="https://auphys.axsiow.ovh" target="_blank">Auphys Works</a> et <a href="https://labelepicerie.axsiow.ovh" target="_blank">Label Epicerie</a> !</p>
 					</div>
-				</section>
-
-				<!-- Six-->
-				<section id="six" class="wrapper style1 special">
-					<div class="inner">
-						<header class="major">
-							<h2 class="nh2">Centres d'intéret</h2>
-						</header>
-							<h3>Sports</h3>
-							<p class="lang">Plongée sous-marine, roller-hockey, randonnées, ski, art martial : judo, sabre laser</p>
-							<h3>Loisirs</h3>
-							<p class="lang">Cinéma, théatre, jeux, voyage, sciences</p>
-							<h3>Divers</h3>
-							<p class="lang">Participation a la Coding Battle 2018 du Shaker et la BattleDev du BlogDuModerateur, la Scientific Game Jam 2019 et 2020 de Grenoble. Et en tant qu’exposant a la Maker Faire Grenoble 2017</p>
-						<ul class="icons major">
-							<li><span class="icon major style1"><span class="fas fa-terminal"></span></span></li>
-							<li><span class="icon major style2"><span class="fas fa-laptop-code"></span></span></li>
-							<li><span class="icon major style3"><span class="fas fa-code"></span></span></li>
-						</ul>
+					<div class="resume-date text-md-right">
+						<span class="text-primary lang" key="exp03">Juillet - Août 2019</span>
 					</div>
-				</section>
-			
-				<!-- CTA -->
-					<section id="cta" class="wrapper style4">
-						<div class="inner">
-							<header>
-								<!-- <h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p> -->
-							</header>
-							<ul class="actions stacked">
-								<!-- <li><a href="#" class="button fit primary">Activate</a></li>
-								<li><a href="#" class="button fit">Learn More</a></li> -->
-							</ul>
-						</div>
-					</section>
+				</div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="icons">
-							<li><a href="https://twitter.com/Astro_Axsiow" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="https://www.linkedin.com/in/enzofogliano/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/Axsiow" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="mailto:enzo.fogliano@epsi.fr" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-							<li><a href="images/FOGLIANO_Enzo_CV.pdf" target="_blank" class="icon solid fa-newspaper"><span class="label">CV</span></a></li>
-						</ul>
-						<ul class="copyright">
-							<li>&copy; Axsiow 2020</li><li>Create with ❤️ in Grenoble 🗻</li>
-						</ul>
-					</footer>
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+					<div class="resume-content">
+						<h3 class="mb-0 lang" key="exp11">Ingénierie Réseau</h3>
+						<div class="subheading mb-3">Leonix Telecom</div>
+						<p class="lang" key="exp12">Stage de 6 semaines dans le pôle ingénierie en collaboration avec les équipes réseaux de l'opérateur <a href="http://www.leonix.fr" target="_blank">Leonix Telecom</a></p>
+					</div>
+					<div class="resume-date text-md-right">
+						<span class="text-primary lang" key="exp13">Mai - Juin 2019</span>
+					</div>
+				</div>
+
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+					<div class="resume-content">
+						<h3 class="mb-0 lang" key="exp1">Web Developpeur et Designer </h3>
+						<div class="subheading mb-3">TEMA</div>
+						<p class="lang" key="exp21">Création de la platforme <a href="tema.best" target="_blank">TEMA</a> ayant pour but d'informer les visiteurs sur le don de sang. Les utilisateurs peuvent répondre à un questionnaire pour savoir leur éligibilité au don, connaître la prochaine date à laquelle ils pourront faire un don s'ils ont déjà donné ou encore trouver un établissement disponible à Grenoble où ils pourront effectuer leur don.</p>
+					</div>
+					<div class="resume-date text-md-right">
+						<span class="text-primary lang" key="exp22">Mars 2018 - Aujourd'hui</span>
+					</div>
+				</div>
+
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+					<div class="resume-content">
+						<h3 class="mb-0 mang" key="exp31">Traducteur Anglais > Français</h3>
+						<div class="subheading mb-3">Twitter</div>
+						<p class="lang" key="exp32">Traducteur de l'anglais vers le français sur la plateforme de traduction de <a href="https://twitter.com/twitter" target="_blank">Twitter</a></p>
+					</div>
+					<div class="resume-date text-md-right">
+						<span class="text-primary lang" key="exp33">Janvier 2016 - Novembre 2017</span>
+					</div>
+				</div>
+
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+					<div class="resume-content">
+						<h3 class="mb-0 lang" key="exp41">Graphiste</h3>
+						<div class="subheading mb-3">Coquand Imprimeur</div>
+						<p class="lang" key="exp42">Graphiste dans l'entreprise Coquand Imprimeur</p>
+					</div>
+					<div class="resume-date text-md-right">
+						<span class="text-primary lang" key="exp43">Mai - Juin 2016</span>
+					</div>
+				</div>
 
 			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		</section>
 
-	</body>
+		<hr class="m-0">
+
+		<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+			<div class="w-100">
+				<h2 class="mb-5 lang" key="education">Parcours</h2>
+
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+					<div class="resume-content">
+						<h3 class="mb-0">EPSI Grenoble</h3>
+						<div class="subheading mb-3 lang" key="edu01">Bachelor en informatique</div>
+						<div class="lang" key="edu02">Concepteur intégrateur DEVOPS</div>
+					</div>
+					<div class="resume-date text-md-right">
+						<span class="text-primary">2018 - 2021</span>
+					</div>
+				</div>
+
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+					<div class="resume-content">
+						<h3 class="mb-0">Lycée André Argouges</h3>
+						<div class="subheading mb-3 lang" key="edu11">Baccalauréat Professionnel RPIP (Réalisation de produits imprimés et plurimédias)</div>
+					</div>
+					<div class="resume-date text-md-right">
+						<span class="text-primary">2015 - 2018</span>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<hr class="m-0">
+
+		<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="certifications">
+			<div class="w-100">
+				<h2 class="mb-5 lang" key="certifications">Certifications</h2>
+
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between ">
+					<div class="resume-content">
+						<h3 class="mb-0">Sololearn</h3>
+						<div class="subheading mb-3"><a href="/img/certHTML.pdf" target="_blank">HTML Fundamentals</a></div>
+					</div>
+					<div class="resume-date text-md-right">
+						<span class="text-primary lang" key="cert01">Octobre 2019</span>
+					</div>
+				</div>
+
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+					<div class="resume-content">
+						<h3 class="mb-0">Sololearn</h3>
+						<div class="subheading mb-3"><a href="/img/certCSS.pdf" target="_blank">CSS Fundamentals</a></div>
+					</div>
+					<div class="resume-date text-md-right">
+						<span class="text-primary lang" key="cert01">Octobre 2019</span>
+					</div>
+				</div>
+
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+					<div class="resume-content">
+						<h3 class="mb-0">Sololearn</h3>
+						<div class="subheading mb-3"><a href="/img/certJS.pdf" target="_blank">JavaScript Fundamentals</a></div>
+					</div>
+					<div class="resume-date text-md-right">
+						<span class="text-primary lang" key="cert01">Octobre 2019</span>
+					</div>
+				</div>
+
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+					<div class="resume-content">
+						<h3 class="mb-0">Sololearn</h3>
+						<div class="subheading mb-3"><a href="/img/certJQuery.pdf" target="_blank">JQuery Fundamentals</a></div>
+					</div>
+					<div class="resume-date text-md-right">
+						<span class="text-primary lang" key="cert02">Novembre 2019</span>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<hr class="m-0">
+
+		<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+			<div class="w-100">
+				<h2 class="mb-5 lang" key="skills">Compétences</h2>
+
+				<div class="subheading mb-3 lang" key="ski01">Langages de programmations</div>
+				<ul class="list-inline dev-icons">
+					<li class="list-inline-item">
+						<i class="fab fa-html5"></i>
+					</li>
+					<li class="list-inline-item">
+						<i class="fab fa-css3-alt"></i>
+					</li>
+					<li class="list-inline-item">
+						<i class="fab fa-js-square"></i>
+					</li>
+					<li class="list-inline-item">
+						<i class="fab fa-php"></i>
+					</li>
+					<li class="list-inline-item">
+						<i class="devicon-mysql-plain-wordmark"></i>
+					</li>
+					<li class="list-inline-item">
+						<i class="devicon-c-plain"></i>
+					</li>
+					<li class="list-inline-item">
+						<i class="devicon-cplusplus-plain"></i>
+					</li>
+					<li class="list-inline-item">
+						<i class="devicon-csharp-plain"></i>
+					</li>
+				</ul>
+				
+				<div class="subheading mb-3 lang" key="ski02">Système d'exploitation</div>
+				<ul class="list-inline dev-icons">
+					<li class="list-inline-item">
+						<i class="devicon-linux-plain"></i>
+					</li>
+					<li class="list-inline-item">
+						<i class="devicon-ubuntu-plain-wordmark"></i>
+					</li>
+					<li class="list-inline-item">
+						<i class="devicon-debian-plain-wordmark"></i>
+					</li>
+					<li class="list-inline-item">
+						<i class="devicon-windows8-original"></i>
+					</li>
+				</ul>
+
+				<div class="subheading mb-3 lang" key="ski03">Environnement de développement</div>
+				<ul class="list-inline dev-icons">
+					<li class="list-inline-item">
+						<i class="devicon-visualstudio-plain"></i>
+					</li>
+					<li class="list-inline-item">
+						 <i class="devicon-phpstorm-plain"></i>
+					</li>
+					<li class="list-inline-item">
+							<i class="devicon-webstorm-plain"></i>
+					</li>
+					<li class="list-inline-item">
+						<i class="devicon-atom-original"></i>
+					</li>
+				</ul>
+
+				<div class="subheading mb-3 lang" key="slki04">Graphisme</div>
+				<ul class="list-inline dev-icons">
+					<li class="list-inline-item">
+						<i class="fab fa-bootstrap"></i>
+					</li>
+					<li class="list-inline-item">
+						<i class="fab fa-adobe"></i>
+					</li>
+					<li class="list-inline-item">
+						<i class="devicon-photoshop-line"></i>
+					</li>
+					<li class="list-inline-item">
+						<i class="devicon-illustrator-line"></i>
+					</li>
+					<li class="list-inline-item">
+						<i class="devicon-indesign-line"></i>
+					</li>
+				</ul>
+		</section>
+
+		<hr class="m-0">
+
+		<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+			<div class="w-100">
+				<h2 class="mb-5 lang" key="interests">Centres d'intéret</h2>
+				<div class="subheading mb-3">Sports</div>
+				<p class="lang" key="int01">Plongée sous-marine, roller-hockey, randonnées, ski, art martial : judo, sabre laser</p>
+				<div class="subheading mb-3 lang" key="int02">Loisirs</div>
+				<p class="lang" key="int03">Cinéma, théatre, jeux, voyage, sciences</p>
+				<div class="subheading mb-3 lang" key="int04">Divers</div>
+				<p class="lang" key=int05>Participation a la Coding Battle 2018 du Shaker et la BattleDev du BlogDuModerateur, la Scientific Game Jam 2019 et 2020 de Grenoble. Et en tant qu’exposant a la Maker Faire Grenoble 2017.</p>
+			</div>
+		</section>
+
+		<hr class="m-0">
+
+		<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+			<div class="w-100">
+				<h2 class="mb-5 lang" key="works">Travaux</h2>
+				<ul class="fa-ul mb-0">
+					<li>
+						<i class="fa-li fa fa-trophy text-warning"></i>Réalisation du site <a href="https://tema.best" target="_blank">TEMA Don du sang</a></li>
+					<li>
+						<i class="fa-li fa fa-trophy text-warning"></i>Réalisation du site <a href="https://auphys.axsiow.ovh" target="_blank">Auphys Works </a> collaboration avec <a href="https://www.theomigeat.com/" target="_blank">Théo MIGEAT</a></li>
+					<li>
+						<i class="fa-li fa fa-trophy text-warning"></i>Réalisation du site <a href="https://labelepicerie.axsiow.ovh" target="_blank">Label Epicerie</a></li>
+					<li>
+						<i class="fa-li fa fa-trophy text-warning"></i>Réalisation du site <a href="https://bde.axsiow.ovh" target="_blank">BDE EPSI Grenoble</a> en collaboration avec Simon B, Paco H, Jonas B, et Charles P.</li>
+					<li>	
+						<i class="fa-li fa fa-trophy text-warning"></i>Réalisation du jeu <a href="https://axsiow.itch.io/les-pingouins" target="_blank">Les Pingouins</a> en C# lors de la <a href="https://wwww.grenoblegamelab.com" target="_blank">Scientific Game Jam </a> 2020 organisé par <a href="http://lacasemate.fr" target="_blank">La Casemate</a>, le <a href="http://www.cnrs.fr" target="_blank">CNRS</a>, le <a href="http://www.cea.fr" target="_blank">CEA</a> et la <a href="https://www.communaute-univ-grenoble-alpes.fr/" target="_blank">Communaute Université Grenoble Alpes</a>. Le jeu a remporté le Pixel de l'univers Sonore pour le meilleur sound design et le Pixel du Graphisme pour le jeu ayant les meilleurs graphisme lors de cette edition</li>
+					<li>
+						<i class="fa-li fa fa-trophy text-warning"></i>Réalisation du jeu <a href="https://mrgove10.itch.io/safe-or-well" target="_blank">Safe Or Well</a> en C# lors de la <a href="https://www.grenoblegamelab.com/" target="_blank">Scientific Game Jam </a> 2019 organisé par <a href="http://lacasemate.fr" target="_blank">La Casemate</a>, le <a href="http://www.cnrs.fr" target="_blank">CNRS</a>, le <a href="http://www.cea.fr" target="_blank">CEA</a> et la <a href="https://www.communaute-univ-grenoble-alpes.fr/" target="_blank">Communaute Université Grenoble Alpes</a></li>
+					<li>	
+						<i class="fa-li fa fa-trophy text-warning"></i>Réalisation du jeu <a href="https://manfredhq.itch.io/apocalypsenotnow" target="_blank">Apocalypse Not Now</a> en C# lors de la <a href="https://globalgamejam.org/" target="_blank">Global Game Jam</a>	2020</li>
+					<li>
+						<i class="fa-li fa fa-trophy text-warning"></i>Participation à la <a href="https://battledev.blogdumoderateur.com/" target="_blank">BattleDev</a> 2018, en C# organisé par le <a href="https://www.blogdumoderateur.com/" target="_blank">Blog du Modérateur</a></li>
+					<li>
+						<i class="fa-li fa fa-trophy text-warning"></i>Participation à la <a href="https://www.le-shaker.com/codingbattle" target="_blank">Coding Battle</a> 2018, en C# organisé par le <a href="https://www.le-shaker.com" target="_blank">Shaker</a></li>
+					<li>
+						<i class="fa-li fa fa-trophy text-warning"></i>Exposant à la <a href="https://grenoble.makerfaire.com/" target="_blank">Maker Faire Grenoble </a>, le <a href="https://www.herofestival.fr/" target="_blank">Hero Festival</a> de Grenoble 2017, 2018 et 2019, avec la <a href="https://saberexperienceacademy.jimdo.com/" target="_blank">Saber Experience Academy</a> </li>
+				</ul>
+			</div>
+		</section>
+
+	</div>
+
+	
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+	<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+	<script src="js/resume.min.js"></script>
+	<script src="js/langue.js"> </script>
+</body>
+
 </html>
