@@ -180,6 +180,14 @@ input, select, textarea {
 		line-height: 1.75em;
 	}
 
+	.nh2{
+		font-size: 1.6em;
+	}
+
+	.lang {
+		
+	}
+
 		@media screen and (max-width: 736px) {
 
 			h2 {
@@ -2306,11 +2314,23 @@ input, select, textarea {
 
 /* Icons */
 
+
+		.iconsCompetences i {
+			font-size: 2em;
+			margin-left: 2px;
+			margin-right: 2px;
+		}
+
+		.iconsCompetences i:hover {
+			color: #18042b;
+		}
+
 	ul.icons {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
 	}
+	
 
 		ul.icons li {
 			display: inline-block;
@@ -2568,6 +2588,18 @@ input, select, textarea {
 			position: relative;
 			text-align: left;
 			width: 50%;
+		}
+		
+		.features li h3 {
+			font-family: "Open Sans", Helvetica, sans-serif;
+		}
+
+		.features li h4 {
+			font-family: "Open Sans", Helvetica, sans-serif;
+		}
+
+		.features li a {
+			font-family: "Open Sans", Helvetica, sans-serif;
 		}
 
 			.features li:nth-child(1) {
